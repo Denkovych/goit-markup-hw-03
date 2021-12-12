@@ -3,15 +3,18 @@ body {
   color: #212121;
 }
 /*hover and focus, кнопок і ссилок*/
+.navigation-link,
 .link,
 .mail,
 .tel {
   color: #212121;
   font-size: 14;
 }
+.navigation-link:hover,
 .link:hover,
 .mail:hover,
 .tel:hover,
+.navigation-link:focus,
 .link:focus,
 .mail:focus,
 .tel:focus {
@@ -29,6 +32,75 @@ body {
   background: #2196f3;
 }
 
-/*головна*/
-
+/*шапка*/
+.link-logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31;
+  color: #2196f3;
+}
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16;
+  color: #212121;
+}
+.mail,
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16;
+  color: #757575;
+}
 /*переваги*/
+
+.advantages-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16;
+  color: #212121;
+}
+.advantages-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42;
+  color: #212121;
+}
+/* Наша команда*/
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19;
+  color: #212121;
+}
+.our-team-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19;
+  color: #757575;
+}
+/* Портфоліо*/
+.work-list-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26;
+  color: #212121;
+}
+.portfolio-work {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36;
+  color: #212121;
+}
+.work-list-name {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30;
+  color: #757575;
+}
