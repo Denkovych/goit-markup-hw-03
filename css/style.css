@@ -1,0 +1,10 @@
+.link,
+.mail,
+.tel {
+  color: #212121;
+}
+.link:hover,
+.mail:hover,
+.tel:hover {
+  color: #2196f3;
+}
