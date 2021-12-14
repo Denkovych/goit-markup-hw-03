@@ -15,9 +15,11 @@ body {
 .navigation-link:hover,
 .mail:hover,
 .tel:hover,
+.contact-link:hover,
 .navigation-link:focus,
 .mail:focus,
-.tel:focus {
+.tel:focus,
+.contact-link:focus {
   color: #2196f3;
 }
 .work-list-button,
