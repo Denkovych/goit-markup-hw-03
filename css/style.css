@@ -13,11 +13,9 @@ body {
   font-size: 14;
 }
 .navigation-link:hover,
-.link:hover,
 .mail:hover,
 .tel:hover,
 .navigation-link:focus,
-.link:focus,
 .mail:focus,
 .tel:focus {
   color: #2196f3;
