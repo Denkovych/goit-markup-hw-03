@@ -1,9 +1,13 @@
 body {
   font-family: "Roboto", "Arial", sans-serif;
   color: #212121;
-  text-decoration: none;
 }
 
+.link,
+.mail,
+.tel {
+  text-decoration: none;
+}
 .cursor pointer
 /*hover and focus, кнопок і ссилок*/
 .navigation-link,
