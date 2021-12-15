@@ -8,7 +8,10 @@ body {
 .tel {
   text-decoration: none;
 }
-.cursor pointer
+.work-list-button {
+  cursor: pointer;
+}
+
 /*hover and focus, кнопок і ссилок*/
 .navigation-link,
 .mail,
