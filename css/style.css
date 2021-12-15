@@ -1,24 +1,19 @@
 body {
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
 }
-
-.link,
-.mail,
-.tel {
-  text-decoration: none;
+.link-logo {
+  font-family: "Oleo Script", cursive;
+  font-family: "Raleway", sans-serif;
 }
+
+.order-a-service,
 .work-list-button {
   cursor: pointer;
 }
 
 /*hover and focus, кнопок і ссилок*/
-.navigation-link,
-.mail,
-.tel {
-  color: #212121;
-  font-size: 14;
-}
+
 .navigation-link:hover,
 .mail:hover,
 .tel:hover,
@@ -29,6 +24,7 @@ body {
 .contact-link:focus {
   color: #2196f3;
 }
+
 .work-list-button,
 .order-a-service {
   background: #f5f4fa;
@@ -56,8 +52,9 @@ body {
   line-height: (16/14);
   color: #212121;
 }
-.navigation-mail,
-.navigation-tel {
+.contact-link,
+.mail,
+.tel {
   font-weight: 500;
   font-size: 14px;
   line-height: (16/14);
@@ -81,7 +78,8 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: (42/36);
-  color: #212121;
+  color: #ffffff;
+  background-color: #2f303a;
 }
 /* Наша команда*/
 .our-team-title {
@@ -116,10 +114,3 @@ body {
   color: #757575;
 }
 /*PIDVAL*/
-a.contact-link,
-a.contact-mail,
-a.contact-tel {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: (24/14);
-}
