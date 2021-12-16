@@ -2,10 +2,19 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-
-.navigation-link {
-  --
+:root {
+  --foooter-color: #2f303a;
+  --background-color: #e5e5e5;
+  --title-text-color: #212121;
+  --p-color: #757575;
 }
+
+.link,
+.mail,
+.tel {
+  text-decoration: none;
+}
+
 .link-logo {
   font-family: "Oleo Script", cursive;
   font-family: "Raleway", sans-serif;
@@ -62,7 +71,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: (16/14);
-  color: #757575;
+  color: var(--p-color);
 }
 /*переваги*/
 
@@ -70,13 +79,13 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: (16/14);
-  color: #212121;
+  color: var(--title-text-color);
 }
 .advantages-text {
   font-weight: normal;
   font-size: 14px;
   line-height: (24/14);
-  color: #757575;
+  color: var(--p-color);
 }
 .home-title {
   font-weight: bold;
@@ -90,13 +99,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: (19/16);
-  color: #212121;
+  color: var(--title-text-color);
 }
 .our-team-position {
   font-weight: normal;
   font-size: 16px;
   line-height: (19/16);
-  color: #757575;
+  color: var(--p-color);
 }
 /* Портфоліо*/
 .work-list-button {
@@ -109,12 +118,15 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: (36/18);
-  color: #212121;
+  color: var(--title-text-color);
 }
 .work-list-name {
   font-weight: normal;
   font-size: 16px;
   line-height: (30/16);
-  color: #757575;
+  color: var(--p-color);
 }
 /*PIDVAL*/
+.contact {
+  font-style: normal;
+}
