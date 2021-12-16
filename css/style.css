@@ -23,12 +23,6 @@ li {
   font-family: "Raleway", sans-serif;
 }
 
-.order-a-service,
-.work-list-button {
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-}
-
 /*hover and focus, кнопок і ссилок*/
 
 .navigation-link:hover,
@@ -41,13 +35,7 @@ li {
 .contact-link:focus {
   color: #2196f3;
 }
-.order-a-service {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-.work-list-button {
-  background: #f5f4fa;
-}
+
 .work-list-button:focus,
 .order-a-service:focus,
 .work-list-button:hover,
@@ -56,6 +44,18 @@ li {
   background: #2196f3;
 }
 
+.order-a-service {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.work-list-button {
+  background: #f5f4fa;
+}
+.order-a-service,
+.work-list-button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
 /*шапка*/
 
 .link-logo {
