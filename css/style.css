@@ -22,7 +22,12 @@ li {
   font-family: "Oleo Script", cursive;
   font-family: "Raleway", sans-serif;
 }
-
+.logo-header {
+  color: #212121;
+}
+.logo-footer {
+  color: #ffffff;
+}
 /*hover and focus, кнопок і ссилок*/
 
 .navigation-link:hover,
@@ -79,6 +84,12 @@ li {
   line-height: (16/14);
   color: var(--p-color);
 }
+
+/*HERO*/
+
+.hero {
+  background-color: #2f303a;
+}
 /*переваги*/
 
 .advantages-title {
@@ -98,7 +109,6 @@ li {
   font-size: 36px;
   line-height: (42/36);
   color: #ffffff;
-  background-color: #2f303a;
 }
 /* Наша команда*/
 .our-team-title {
@@ -135,4 +145,7 @@ li {
 /*PIDVAL*/
 .contact {
   font-style: normal;
+}
+footer {
+  background-color: var(--foooter-color);
 }
