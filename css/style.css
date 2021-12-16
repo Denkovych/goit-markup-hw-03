@@ -8,6 +8,9 @@ body {
   --title-text-color: #212121;
   --p-color: #757575;
 }
+li {
+  list-style-type: none;
+}
 
 .link,
 .mail,
@@ -23,6 +26,7 @@ body {
 .order-a-service,
 .work-list-button {
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 /*hover and focus, кнопок і ссилок*/
@@ -37,9 +41,11 @@ body {
 .contact-link:focus {
   color: #2196f3;
 }
-
-.work-list-button,
 .order-a-service {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.work-list-button {
   background: #f5f4fa;
 }
 .work-list-button:focus,
