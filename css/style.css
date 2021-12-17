@@ -1,13 +1,17 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
-}
 :root {
   --foooter-color: #2f303a;
   --background-color: #e5e5e5;
   --title-text-color: #212121;
   --p-color: #757575;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  background: #e5e5e5;
+}
+
 li {
   list-style-type: none;
 }
@@ -19,7 +23,6 @@ li {
 }
 
 .link-logo {
-  font-family: "Oleo Script", cursive;
   font-family: "Raleway", sans-serif;
 }
 .logo-header {
@@ -30,21 +33,17 @@ li {
 }
 /*hover and focus, кнопок і ссилок*/
 
-.navigation-link:hover,
+.link:hover,
 .mail:hover,
 .tel:hover,
-.contact-link:hover,
-.navigation-link:focus,
+.link:focus,
 .mail:focus,
-.tel:focus,
-.contact-link:focus {
+.tel:focus {
   color: #2196f3;
 }
 
-.work-list-button:focus,
-.order-a-service:focus,
-.work-list-button:hover,
-.order-a-service:hover {
+button:focus,
+button:hover {
   color: #ffffff;
   background: #2196f3;
 }
@@ -52,6 +51,7 @@ li {
 .order-a-service {
   background-color: #2196f3;
   color: #ffffff;
+  font-size: 16px;
 }
 .work-list-button {
   background: #f5f4fa;
