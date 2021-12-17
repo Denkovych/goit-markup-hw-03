@@ -66,14 +66,14 @@ button:hover {
 .link-logo {
   font-weight: bold;
   font-size: 26px;
-  line-height: (31/26);
+  line-height: 1.2;
   color: #2196f3;
 }
 
 .navigation-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: (16/14);
+  line-height: 1.15;
   color: #212121;
 }
 .contact-link,
@@ -81,7 +81,7 @@ button:hover {
 .tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: (16/14);
+  line-height: 1.15;
   color: var(--p-color);
 }
 
@@ -95,51 +95,51 @@ button:hover {
 .advantages-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: (16/14);
+  line-height: 1.15;
   color: var(--title-text-color);
 }
 .advantages-text {
   font-weight: normal;
   font-size: 14px;
-  line-height: (24/14);
+  line-height: 1.7;
   color: var(--p-color);
 }
 .home-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: (42/36);
+  line-height: 1.17;
   color: #ffffff;
 }
 /* Наша команда*/
 .our-team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: (19/16);
+  line-height: 1.19;
   color: var(--title-text-color);
 }
 .our-team-position {
   font-weight: normal;
   font-size: 16px;
-  line-height: (19/16);
+  line-height: 1.19;
   color: var(--p-color);
 }
 /* Портфоліо*/
 .work-list-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: (26/16);
+  line-height: 1.7;
   color: #212121;
 }
 .portfolio-work {
   font-weight: bold;
   font-size: 18px;
-  line-height: (36/18);
+  line-height: 2;
   color: var(--title-text-color);
 }
 .work-list-name {
   font-weight: normal;
   font-size: 16px;
-  line-height: (30/16);
+  line-height: 1.19;
   color: var(--p-color);
 }
 /*PIDVAL*/
