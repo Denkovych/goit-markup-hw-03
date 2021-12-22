@@ -13,6 +13,10 @@ h5,
 h6 {
   margin: 0;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -21,7 +25,9 @@ body {
   background: #e5e5e5;
 }
 .container {
-  max-width: 1200px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: auto;
 }
 
