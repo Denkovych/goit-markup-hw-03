@@ -54,6 +54,12 @@ li {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.navigation-page {
+  display: flex;
+}
+.mail-tel {
+  display: flex;
+}
 /*hover and focus, кнопок і ссилок*/
 
 .link:hover,
