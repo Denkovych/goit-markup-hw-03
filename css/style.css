@@ -34,6 +34,9 @@ body {
 li {
   list-style-type: none;
 }
+img {
+  display: block;
+}
 
 .link,
 .mail,
@@ -53,13 +56,21 @@ li {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
+  display: inline-block;
 }
-.navigation-page {
+.link-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+/*.navigation-page {
   display: flex;
+  align-items: center;
 }
 .mail-tel {
   display: flex;
+  justify-content: flex-end;
 }
+
 /*hover and focus, кнопок і ссилок*/
 
 .link:hover,
@@ -81,13 +92,33 @@ button:hover {
   background-color: #2196f3;
   color: #ffffff;
   font-size: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
 }
+
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.portfolio-galery {
+  display: flex;
+  justify-content: space-around;
+}
+.work-list {
+  display: flex;
+  justify-content: center;
+}
 .work-list-button {
   background: #f5f4fa;
+  border-radius: 4px;
+}
+.work-list-li {
+  margin-right: 8px;
+}
+.work-list-li:last-child {
+  margin-right: 0;
 }
 .order-a-service,
 .work-list-button {
@@ -102,12 +133,36 @@ button:hover {
   line-height: 1.2;
   color: #2196f3;
 }
-
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation-page {
+  display: flex;
+  margin-left: 93px;
+}
+.navigation-item {
+  margin-right: 50px;
+}
+.navigation-item:last-child {
+  margin-right: 0;
+}
 .navigation-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   color: #212121;
+  margin-left: 93px;
+}
+.mail-tel {
+  display: flex;
+  margin-left: auto;
+}
+.mail-tel .navigation-item + .navigation-item {
+  margin-left: 50px;
 }
 .contact-link,
 .mail,
@@ -148,6 +203,9 @@ button:hover {
   font-size: 36px;
   line-height: 1.17;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .our-work {
