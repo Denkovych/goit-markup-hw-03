@@ -25,10 +25,11 @@ body {
   background: #e5e5e5;
 }
 .container {
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li {
@@ -54,21 +55,20 @@ img {
   color: #ffffff;
 }
 .header {
+  background-color: #ffffff;
   padding-top: 32px;
   padding-bottom: 32px;
   display: inline-block;
+  display: flex;
 }
+
 .link-logo {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-/*.navigation-page {
-  display: flex;
-  align-items: center;
-}
-.mail-tel {
-  display: flex;
-  justify-content: flex-end;
+.navigation {
+  display: block;
+  justify-content: center;
 }
 
 /*hover and focus, кнопок і ссилок*/
@@ -94,7 +94,9 @@ button:hover {
   font-size: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: flex;
+
+  margin: auto;
+  display: block;
   justify-content: center;
 }
 
@@ -136,6 +138,7 @@ button:hover {
 .navigation {
   display: flex;
   align-items: center;
+  margin: auto;
 }
 .navigation-page {
   display: flex;
@@ -179,24 +182,66 @@ button:hover {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
+  width: 1600px;
 }
 /*переваги*/
+.not-see {
+  display: none;
+}
 .advantages {
   margin-top: 94px;
   margin-bottom: 94px;
 }
-
+.advantages-list {
+  display: flex;
+}
+.advantages-item {
+  margin-right: 30px;
+}
+.advantages-item:last-child {
+  margin-right: 0;
+}
 .advantages-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.15;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 .advantages-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   color: var(--p-color);
+}
+.advantages,
+.our-work {
+  background-color: #e5e5e5;
+}
+.our-work-list {
+  display: flex;
+  justify-content: center;
+}
+.our-work-item {
+  margin-right: 30px;
+}
+.our-team-list {
+  display: flex;
+}
+.our-team-item {
+  margin-right: 30px;
+  justify-content: center;
+}
+.our-team-img {
+  width: 270px;
+  margin-bottom: 30px;
+}
+.our-team-title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.our-team-position {
+  text-align: center;
 }
 .home-title {
   font-weight: bold;
@@ -206,6 +251,11 @@ button:hover {
   display: flex;
   justify-content: center;
   text-align: center;
+  width: 1230px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .our-work {
@@ -214,6 +264,7 @@ button:hover {
 }
 /* Наша команда*/
 .our-team {
+  background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -242,11 +293,32 @@ button:hover {
   line-height: 2;
   color: var(--title-text-color);
 }
+.work-list {
+  padding-bottom: 56px;
+}
 .work-list-name {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   color: var(--p-color);
+}
+.portfolio-galery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-galery-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.portfolio-galery-item:last-child {
+  margin-right: 0;
+}
+.portfolio-img {
+  width: 370px;
+  margin-bottom: 20px;
+}
+.portfolio-work {
+  margin-bottom: 4px;
 }
 /*PIDVAL*/
 .contact {
@@ -258,4 +330,5 @@ footer {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 1600px;
 }
