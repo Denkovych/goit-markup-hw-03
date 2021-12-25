@@ -23,6 +23,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.03em;
   background: #e5e5e5;
+  width: 1600px;
 }
 .container {
   width: 1230px;
@@ -58,7 +59,7 @@ img {
   background-color: #ffffff;
   padding-top: 32px;
   padding-bottom: 32px;
-  display: inline-block;
+  /*display: inline-block;*/
   display: flex;
 }
 
@@ -144,13 +145,13 @@ button:hover {
 }
 .navigation-page {
   display: flex;
-  margin-left: 93px;
+  /*margin-left: 93px;*/
 }
 .navigation-item {
   margin-right: 50px;
 }
 .navigation-item:last-child {
-  margin-right: 0;
+  margin-right: 331px;
 }
 .navigation-link {
   display: block;
@@ -160,14 +161,15 @@ button:hover {
   font-size: 14px;
   line-height: 1.15;
   color: #212121;
-  margin-left: 93px;
 }
 .mail-tel {
   display: flex;
-  margin-left: auto;
 }
-.mail-tel .navigation-item + .navigation-item {
+.mail-tel .navigation-contacts + .navigation-contacts {
   margin-left: 50px;
+}
+.logo-web {
+  margin-right: 93px;
 }
 .contact-link,
 .mail,
@@ -184,8 +186,10 @@ button:hover {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  width: 1630px;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1600px;
 }
 /*переваги*/
 .not-see {
@@ -210,7 +214,10 @@ button:hover {
   line-height: 1.15;
   color: var(--title-text-color);
   margin-bottom: 10px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+
 .advantages-text {
   font-weight: normal;
   font-size: 14px;
@@ -257,11 +264,13 @@ button:hover {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 1230px;
+  /*width: 1230px;*/
+  margin-bottom: 30px;
 }
 .title {
   text-align: center;
   margin-bottom: 50px;
+  letter-spacing: 0.03em;
 }
 
 .our-work {
@@ -330,11 +339,11 @@ button:hover {
 .contact {
   font-style: normal;
 }
-footer {
+/*footer {
   background-color: var(--foooter-color);
-}
+}*/
 .footer {
+  background-color: var(--foooter-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1600px;
 }
