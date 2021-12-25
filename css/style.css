@@ -347,3 +347,11 @@ button:hover {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.adress-footer {
+  margin-top: 20px;
+}
+.adress-footer,
+.mail-footer {
+  margin-bottom: 9px;
+}
