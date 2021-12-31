@@ -113,12 +113,13 @@ button:hover {
 }
 .portfolio-box {
   height: 1360px;
-  margin: 94px 215px;
+  /*margin-top: 94px;
+  margin-bottom: 94px;*/
 }
-.portfolio-galery {
+/*.portfolio-galery {
   display: flex;
   justify-content: space-around;
-}
+}*/
 .work-list {
   display: flex;
   justify-content: center;
@@ -132,6 +133,7 @@ button:hover {
 .work-list-li {
   margin-right: 8px;
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 .work-list-li:last-child {
   margin-right: 0;
@@ -321,6 +323,13 @@ button:hover {
   text-align: center;
   margin-bottom: 50px;
   letter-spacing: 0.03em;
+  height: 42px;
+}
+.title-our-work {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .our-work {
@@ -342,6 +351,12 @@ button:hover {
   background-color: rgba(245, 244, 250, 1);
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.our-team-t {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .our-team-title {
   font-weight: 500;
@@ -373,7 +388,8 @@ button:hover {
   color: var(--title-text-color);
 }
 .work-list {
-  padding-bottom: 50px;
+  height: 38px;
+  margin-bottom: 50px;
 }
 .work-list-name {
   font-weight: normal;
