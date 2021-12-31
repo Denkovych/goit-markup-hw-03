@@ -223,13 +223,19 @@ button:hover {
   height: 600px;
   width: 1600px;
 }
+.hero-box {
+  width: 696px;
+  height: 120px;
+  margin-left: 452px;
+  margin-right: 452px;
+}
 /*переваги*/
 .not-see {
   display: none;
 }
 .advantages {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  margin: 94px 215px;
+  /*margin-bottom: 94px;*/
 }
 .advantages-list {
   display: flex;
