@@ -57,8 +57,7 @@ img {
 .header {
   background-color: #ffffff;
   display: flex;
-  width: 1600px;
-  height: 80px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -156,8 +155,10 @@ button:hover {
 .order-a-service,
 .work-list-button {
   cursor: pointer;
+  border: none;
   font-family: "Roboto", sans-serif;
 }
+
 /*шапка*/
 
 .link-logo {
@@ -222,8 +223,10 @@ button:hover {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
-  width: 1600px;
+  display: flex;
+  justify-content: center;
+  /*height: 600px;
+  width: 1600px;*/
 }
 .hero-box {
   width: 696px;
@@ -236,12 +239,12 @@ button:hover {
   display: none;
 }
 .advantages {
-  margin: 94px 215px;
-  /*margin-bottom: 94px;*/
+  padding: 94px 215px;
 }
 .advantages-list {
   display: flex;
-  height: 101px;
+  justify-content: center;
+  align-items: center;
 }
 .advantages-item {
   margin-right: 30px;
@@ -273,6 +276,7 @@ button:hover {
 .our-work-list {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .our-work-item {
   margin-right: 30px;
@@ -285,10 +289,10 @@ button:hover {
   display: flex;
   justify-content: center;
 }
-.our-team-box {
+/*.our-team-box {
   margin-left: 215px;
   margin-right: 215px;
-}
+}*/
 
 .our-team-item {
   margin-right: 30px;
@@ -310,42 +314,41 @@ button:hover {
 }
 .home-title {
   font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 44px;
+  line-height: 1.37;
   color: #ffffff;
   display: flex;
   justify-content: center;
   text-align: center;
-  /*width: 1230px;*/
+
   margin-bottom: 30px;
 }
 .title {
   text-align: center;
   margin-bottom: 50px;
   letter-spacing: 0.03em;
-  height: 42px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.our-work-title {
+/*.our-work-title {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-}
+}*/
 
 .our-work {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
   margin-bottom: 94px;
 }
-.our-work-box {
+/*.our-work-box {
   height: 386px;
-}
+}*/
 /* Наша команда*/
 .our-team {
-  width: 1600px;
-  height: 648px;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(245, 244, 250, 1);
@@ -437,8 +440,6 @@ button:hover {
   background-color: var(--foooter-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1600px;
-  height: 252px;
   margin-left: auto;
   margin-right: auto;
 }
