@@ -105,20 +105,10 @@ button:hover {
 .portfolio {
   margin-top: 94px;
   margin-bottom: 94px;
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  height: 1360px;
 }
-.portfolio-box {
-  height: 1360px;
-  /*margin-top: 94px;
-  margin-bottom: 94px;*/
-}
-/*.portfolio-galery {
-  display: flex;
-  justify-content: space-around;
-}*/
+
 .work-list {
   display: flex;
   justify-content: center;
