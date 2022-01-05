@@ -216,15 +216,8 @@ button:hover {
   margin-right: auto;
   display: flex;
   justify-content: center;
-  /*height: 600px;
-  width: 1600px;*/
 }
-.hero-box {
-  width: 696px;
-  height: 120px;
-  margin-left: 452px;
-  margin-right: 452px;
-}
+
 /*переваги*/
 .not-see {
   display: none;
@@ -279,6 +272,7 @@ button:hover {
   height: 368px;
   display: flex;
   justify-content: center;
+  background-color: #ffffff;
 }
 /*.our-team-box {
   margin-left: 215px;
@@ -400,9 +394,12 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  background: #ffffff;
 }
 .portfolio-galery-item {
-  background: #ffffff;
+  outline: 1px solid #eeeeee;
+}
+.portfolio-galery-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
